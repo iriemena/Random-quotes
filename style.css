@@ -190,8 +190,9 @@ body {
 	}
 	.quote {
 		width: 92%;
-		font-size: 3rem;
+		font-size: 1.2rem;
 		line-height: 1.5;
+		margin: 10px;
 	}
 
 	.text h1 {
@@ -202,14 +203,15 @@ body {
 		font-size: 2rem;
 	}
 	.generate {
-		padding: 30px;
-		font-size: 2rem;
+		padding: 10px;
+		font-size: 1.5rem;
 		box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
 	}
 
 	.tweet {
-		padding: 30px;
-		font-size: 2rem;
+		padding: 10px;
+		font-size: 1.5rem;
+		box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
 	}
 
 	.generate:hover {
