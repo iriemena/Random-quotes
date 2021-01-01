@@ -70,6 +70,7 @@ body {
 	box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
 	z-index: 1;
 	cursor: pointer;
+	height: 100%;
 }
 
 .generate:disabled {
@@ -185,7 +186,7 @@ body {
 
 @media screen and (max-width: 1200px) {
 	.container {
-		width: 98%;
+		width: 97%;
 		background-position: center top;
 	}
 	.quote {
@@ -206,6 +207,7 @@ body {
 		padding: 10px;
 		font-size: 1.5rem;
 		box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
+		
 	}
 
 	.tweet {
