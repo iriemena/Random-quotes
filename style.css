@@ -42,7 +42,7 @@ body {
 	display: flex;
 	margin: 30px;
 	color: orange;
-	font-size: 1.2rem;
+	font-size: 2rem;
 }
 
 .quote {
@@ -201,7 +201,7 @@ body {
 	}
 
 	.author {
-		font-size: 2rem;
+		font-size: 1.2rem;
 	}
 	.generate {
 		padding: 10px;
@@ -221,5 +221,12 @@ body {
 	}
 	.tweet:hover {
 		opacity: 1;
+	}
+
+	.spinner {
+		margin: 0 auto;
+		width: 40px;
+		height: 30px;
+		font-size: 8px;
 	}
 }
