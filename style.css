@@ -16,6 +16,7 @@ body {
  	background-size: contain;
  	background-position: center top;*/
 }
+
 .container {
 	display: flex;
 	justify-content: center;
@@ -23,35 +24,36 @@ body {
 	text-align: center;
 	flex-direction: column;
 	background: white;
-	width: 50%;
+	width: 90%;
 	border-radius: 10px;
 	position: relative;
 	background-image: url('socrate.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	background-attachment: fixed;
 	box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
 }
 
 .text h1 {
 	margin: 10px;
-	font-size: 3.5rem;
+	font-size: 2rem;
 }
 
 .author {
 	display: flex;
 	margin: 30px;
 	color: orange;
-	font-size: 2rem;
+	font-size: 1rem;
 }
 
 .quote {
-	width: 90%;
+	width: 95%;
 	display: flex;
-	margin: 30px;
+	margin: 10px;
 	flex-direction: column;
 	background-color: rgb(0, 0, 0, 0.2);
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	font-weight: bold;
 	text-align: justify;
 	color: white;
@@ -114,7 +116,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 
 /*spinner from https://tobiasahlin.com/*/
@@ -184,14 +186,14 @@ body {
 	}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1024px) {
 	.container {
-		width: 97%;
+		width: 60%;
 		background-position: center top;
 	}
 	.quote {
-		width: 92%;
-		font-size: 1.2rem;
+		width: 97%;
+		font-size: 1.5rem;
 		line-height: 1.5;
 		margin: 10px;
 	}
@@ -201,13 +203,12 @@ body {
 	}
 
 	.author {
-		font-size: 1.2rem;
+		font-size: 1.3rem;
 	}
 	.generate {
 		padding: 10px;
 		font-size: 1.5rem;
 		box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.1);
-		
 	}
 
 	.tweet {
